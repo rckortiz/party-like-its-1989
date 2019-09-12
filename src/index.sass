@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+$color: white
+$backgroundSize: cover
+$killbullets: none
+$neonBackground: url(./images/80sWallpaper.jpg)
+$roboto: 'Roboto', sans-serif
+
+html
+  height: 100%
+
+body
+  margin: 0
+  min-height: 100%
+  background-image: $neonBackground
+  background-size: $backgroundSize
+
+li
+  list-style-type: $killbullets
+  color: $color
+  font-family: $roboto
+h1
+  color: $color
+  font-family: $roboto
+
+ul
+  display: flex
+  justify-content: space-evenly
+  flex-wrap: wrap
+
+.header-container
+  display: flex
+  justify-content: center
